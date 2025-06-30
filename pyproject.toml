@@ -37,7 +37,7 @@ numpy = [
     "numpy==1.24.*; python_version=='3.8'",
     "numpy==1.21.*; python_version=='3.7'"
 ]
-gurobi = ["gurobipy>=8"]
+gurobi = ["gurobipy>=8.0"]
 highs = ["highspy>=1.5.3; python_version<='3.11'"]
 test = [
     "pytest>=7.4",
